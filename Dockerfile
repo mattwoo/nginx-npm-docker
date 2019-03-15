@@ -1,4 +1,4 @@
-FROM debian:stretch-slim
+FROM nginx:latest
 
 RUN apt update && apt install -y curl gnupg
 RUN curl -sL https://deb.nodesource.com/setup_8.x |  bash -
